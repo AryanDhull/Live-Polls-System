@@ -1,0 +1,28 @@
+{
+  "name": "live-polling-backend",
+  "version": "1.0.0",
+  "description": "Backend for live polling system assignment of Intervue",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "startdev": "nodemon index.js"
+  },
+  "keywords": [
+    "backend",
+    "socket",
+    "node.js",
+    "live-polling"
+  ],
+  "author": "Harshit Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4",
+    "socket.io": "^4.7.4",
+    "uuid": "^10.0.0"
+  }
+}
