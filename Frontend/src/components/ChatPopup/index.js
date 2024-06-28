@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 import { useUser } from '../../context/userContext';
 
-const socket = io("http://localhost:3001");
+const socket = io("https://live-polls-system-backend.onrender.com");
 
 function ChatPopup() {
   const [messages, setMessages] = useState([]);

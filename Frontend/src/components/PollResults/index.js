@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import { useNavigate } from "react-router-dom";
 import { Bars } from "react-loader-spinner";
 import { Link } from "react-router-dom";
-const socket = io("http://localhost:3001");
+const socket = io("https://live-polls-system-backend.onrender.com");
 
 function PollResults({ teacherMode }) {
   const [question, setQuestion] = useState(null);
